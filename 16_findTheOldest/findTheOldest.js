@@ -8,7 +8,6 @@ const findTheOldest = function(peopleArray) {
             let date = new Date ();
             let currentYear = date.getFullYear();
             age = currentYear - person.yearOfBirth;
-
         }
         else
         {
